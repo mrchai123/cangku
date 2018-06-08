@@ -50,9 +50,11 @@ body{
 }
 .b2{
 	float: left;
-	position: absolute;
+    margin-top: -50px;
+    margin-left: 520px;
+/*	position: absolute;
 	top: 70px;
-	left: 565px;
+	left: 565px;*/
 	/*margin-top: -70px;*/
 }
 .b2 li{
@@ -96,21 +98,23 @@ a:visited{
     margin-left: 185px;
 }
 .c3{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 420px;      
     width: 585px;
     height: 50px;
     border-radius: 10px;
+    float: left;
+    display: inline-block;
 }
 .c4{
     height: 66px;
     width: 130px;
     text-align: center;
     line-height: 66px;
+    float: left;
     background-color: white;
-    position: absolute;
-    left: 475px;
-    top: 377px;
+    margin-top: 10px;
+    margin-left: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
@@ -119,7 +123,7 @@ a:visited{
     width: 136px;
     height: 50px;
     background-color: white;
-    margin-top: -65px;
+    /*margin-top: -65px;*/
 }
 .p1{
     /*float: left;*/
