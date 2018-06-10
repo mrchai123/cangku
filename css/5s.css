@@ -1,0 +1,59 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.dh{
+	width: 750px;
+	height: 115px;
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	background-color: rgb(254,254,254);
+}
+.dh div{
+	margin-top: 26px;
+	margin-left: 42px;
+	float: left;
+}
+.ann{
+	margin-top: 34px;
+	margin-left: 196px;
+	width: 165px;
+	height: 55px;
+	border-radius: 15px;
+	background-color: rgb(235,66,10);
+	float: left;
+	border:none; 
+	font-size: 28px;
+	font-family:"Simsun";
+	color: rgb( 254, 254, 254 );
+
+}
+.dh p{
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+}
+.d{
+	height: 2400px;
+	width: 718px;
+	float: left;
+	margin-top: 23px;
+	padding:0px 16px;
+}
+.d>div{
+	width: 348px;
+	margin: 5px;
+	float: left;
+	background-color: rgb(245,245,245);
+}
+.d>div>div{
+	margin: 21px 19px 0px 19px;
+	float: left;
+}
