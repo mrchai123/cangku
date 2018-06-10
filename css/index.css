@@ -11,7 +11,8 @@ li{
 .boxbig{
 	width: 750px;
 	height: 6826px;
-	float: left;
+	margin:auto;
+	
 }
 .dh{
 	width: 750px;
