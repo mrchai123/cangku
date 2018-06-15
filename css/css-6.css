@@ -1,10 +1,10 @@
 /*
-* @Author: dell
-* @Date:   2018-05-29 21:07:44
+* @Author: mrchai123
+* @Date:   2018-06-10 10:57:14
 * @Last Modified by:   mrchai123
-* @Last Modified time: 2018-06-10 15:57:00
+* @Last Modified time: 2018-06-10 16:30:08
 */
-        *{
+ *{
 			padding: 0;
 			margin: 0;
 		}
@@ -18,51 +18,26 @@
 			display: block;
 			clear: both;
 		}
-        .top{
+		.top{
         	height: 45px;
         	background-color: rgb(51,51,51);
             width: 100%;
         }
-        .top-0{
-            
+        .top-0{            
             margin: auto;
             width: 1430px;
         }
         .div0{
-            margin: auto;
-            width: 1430px;
+            height: 84px;
+        	width: 100%;
         }
         .div1{
             
             height: 84px;
         	width: 100%;
-            
-        }
-        .div2{
-          
-        
-        	width: 100%;
-        	background-color: rgb(245,245,245);
-        	height: 3630px;
-            margin: auto;
-        }
-        .div5{
             margin: auto;
             width: 1430px;
-            height: 3630px;
         }
-        .div3{
-          
-           
-            height: 796px;
-            width: 100%;
-            background-color: rgb(0,0,0);
-        }
-        .div4{
-             margin: auto;
-            height: 796px;
-            width: 1430px;
-       }
         .xiaolian{
         	padding-left: 1055px;
         	font-size: 20px;
@@ -100,8 +75,8 @@
         	float: left;
         }
         .daohang2{
-        	position: absolute;
-        	margin-left: 590px;
+        	float: left;
+        	margin-left: 363px;
             height: 80px;
         }
         .daohang2 > ul > li {
@@ -127,11 +102,24 @@
         .daohang2 li:link{
         	border-bottom: 2px solid rgb(232,66,10);
         }
-        .you-logo{
+        .div2{
+          
+        
+        	width: 100%;
+        	background-color: rgb(245,245,245);
+        	height: 3630px;
+            margin: auto;
+        }
+        .div5{
+            margin: auto;
+            width: 1430px;
+            height: 3630px;
+        }
+         .you-logo{
             position: fixed;
             margin-left:1380px ;
         }
-        .you-logo ul> li{
+         .you-logo ul> li{
             display: block;
             height: 47px;
             width: 47px;
@@ -180,7 +168,7 @@
         	margin-left: 30px;
         	height: 400px;
         	width: 440px;
-        	font-size: 20px;
+        	font-size: 16px;
             font-family: "Microsoft YaHei";
             color: rgb( 102, 102, 102 );
             line-height: 40px;
@@ -205,246 +193,192 @@
             width: 166px;
             height: 106px;
         }
-        .homelist{
-            /* position: absolute; */
-            height: 50px;
+        .travel-list{
+            height: 609px;
             width: 1200px;
             margin-left: 115px;
             margin-top: 50px;
             background-color: rgb(255,255,255);
             border: 1px solid rgb(206, 206, 206) ;
             float: left;
+            display: inline-block;
         }
-        .homelist1{
-            height: 50px;
-            width: 150px;
+        .travel-list0{
+        	float: left;
+        }
+        .travel-list1{
+            height: 49px;
+            width: 197px;
             background-color: rgb(28,80,128);
             font-size: 24px;
             color: rgb( 255, 255, 255 );
             line-height: 50px;
             text-align: center;
-        }
-        .restime{
-            /* position: absolute; */
-            height: 60px;
-            width: 1200px;
-            margin-left: 115px;
-            /* margin-top: 775px; */
-            background-color: rgb(255,255,255);
-            border: 1px solid rgb(206, 206, 206) ;
-            float: left;
-        }
-        .restime1{
-            height: 60px;
-            width: 150px;
-            background-color: rgb(245,245,245);
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 0,0,0 );
-            line-height: 60px;
-            text-align: center;
-            float: left;
-        }
-        .livetime1{
-            height: 60px;
-            width: 100px;
-            margin-left: 30px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 0,0,0 );
-            line-height: 60px;
-            float: left;
-        }
-        .livetime2{
-            height: 40px;
-            width: 205px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 0,0,0 );
-            line-height: 40px;
-            text-align: center;
-            margin-top:10px ;
-            float: left;
-            border: 2px solid rgb(232,53,37);
-        }
-        .livetime2 a{
-            height: 40px;
-            margin-left: 10px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 1, 1, 1 );
-            line-height:40px;
-             
-        }
-        .leavetime1{
-            height: 60px;
-            width: 100px;
-            padding-left: 75px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 0,0,0 );
-            line-height: 60px;
-            float: left;
-        }
-        .leavetime2{
-            height: 40px;
-            width: 205px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 0,0,0 );
-            line-height: 40px;
-            text-align: center;
-            margin-top:10px ;
-            float: left;
-            border: 2px solid rgb(232,53,37);
-        }
-        .homeinformation{
-            /* position: absolute; */
-            height: 60px;
-            width: 1200px;
-            margin-left: 115px;
-            /* margin-top: 835px; */
-            background-color: rgb(245,245,245);
-            border: 1px solid rgb(206, 206, 206) ;
-            float: left;
-        }
-        .homeinformation1{
-            width: 235px;
-            height: 60px;
-            line-height: 60px;
-            padding-left: 30px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 1, 1, 1 );
-            float: left;
-        }
-        .homeinformation2{
-            width: 160px;
-            height: 60px;
-            line-height: 60px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 1, 1, 1 );
-            text-align: center;
-            float: left;
-        }
-        .homeinformation3{
-            width: 160px;
-            height: 60px;
-            margin-left: 60px;
-            line-height: 60px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 1, 1, 1 );
-            text-align: center;
-            float: left;
-        }
-        .resinformation{
-            /* position: absolute; */
-            width: 1200px;
-            margin-left: 115px;
-            /* margin-top: 895px; */
-            border: 1px solid rgb(206, 206, 206) ;
-            /* height: 640px; */
-            float: left;
-        }
-        .resinformation > ul >li{
-            /* height: 80px; */
-            width: 1198px;
-            border: 1px solid rgb(206, 206, 206) ;
-            list-style: none;
-            float: left;
-        }
-        .li-0{
-            height: 80px;
-            width: 265px;
-            border-right: 1px solid  rgb(206, 206, 206) ;
-            float: left;
-            cursor: pointer;
-        }
-        .li-1{
-            height: 70px;
-            width: 130px;
-            margin-top: 6px;
-            margin-left: 9px;
-            float: left;
-        }
-        .li-2{
-            height: 25px;
-            width: 77px;
-            margin-top: 15px;
-            margin-left: 20px;
-            float: left;
-            font-size: 18px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 0, 0, 0 );
-        }
-        .li-3{
-            height: 25px;
-            width: 80px;
-            margin-top: 10px;
-            margin-left: 20px;
-            float: left;
-            font-size: 12px;
-            font-family: "Microsoft YaHei";
-            color: rgb(102, 102, 102 );
-        }
-        .li-3 a{
-            color: rgb(102, 102, 102 );
-        }
-        .div-2{
-            margin-top: 2px;
-            float: left;
-            width: 1196px;
-            height: 215px;
-            background-color: rgb(255,255,255);
-            font-size: 18px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 0, 0, 0 );
-            line-height: 1.659;
-        }
-        .resinformation > ul > li > p{
-            display: none;
-        }
-        .resinformation div:hover +div+div+div+div+div + p{display: block;}
-        .resinformation div:hover >p{display: inline-block;}
-        .li-4{
-            width: 160px;
-            height: 80px;
-            line-height: 80px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 1, 1, 1 );
-            text-align: center;
-            float: left;
-        }
-        .li-5{
-            width: 160px;
-            height: 80px;
-            margin-left: 60px;
-            line-height: 80px;
-            font-size: 13.034px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 232, 66, 10 );
-            text-align: center;
-            float: left;
-        }
-        .li-6{
-            height: 40px;
-            width: 140px;
-            background-color:rgb(232,66,10) ;
-            border-radius:10px;
-            margin-left: 1028px;
-            margin-top: 20px;
-            font-size: 20px;
-            font-family: "Microsoft YaHei";
-            color: rgb( 255, 255, 255 );
-            text-align: center;
-            line-height: 40px;
             
         }
-        .li-6 a{
-             color: rgb( 255, 254, 254 );
+        .travel-list2{
+			height: 60px;
+			width: 720px;
+			border: 1px solid rgb(206, 206, 206) ;
+			background-color: rgb(245,245,245);
+			font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 1, 1, 1 );
+  			line-height: 60px;
+			
+        }
+        .travel-list3{
+			height: 60px;
+			width: 720px;
+			border: 1px solid rgb(206, 206, 206) ;
+			border-top: 0px;
+			background-color: rgb(255,255,255);
+			font-size: 22px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 28, 80, 128 );
+  			line-height: 60px;
+			
+
+        }
+        .travel-list3 a{
+			color: rgb( 28, 80, 128 );
+        }
+        .travel-list4{
+        	height:290px ;
+        	width: 722px;
+        	border: 0.5px solid rgb(206,206,206);
+
+        }
+        .travel-list4 th{
+        	height: 46px;
+        	width: 105px;
+        	border: 0.5px solid rgb(206,206,206);
+        }
+        .travel-list4 td{
+        	height: 46px;
+        	width: 105px;
+        	border: 0.5px solid rgb(206,206,206);
+        	text-align: right;
+        }
+        .travel-list4 span{
+        	font-size: 14.002px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			
+
+        }
+        .travel-list4 p{
+        	font-size: 16.003px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 0, 0, 0 );	
+        }
+        .travel-list5{
+        	height: 415px;
+        	width: 469px;
+        	border: 1px solid rgb(206,206,206);
+        	border-right: 0px;
+        	margin-top: 49px;
+        	margin-left: 730px;
+        }
+        .travel-list5-0{
+        	height: 60px;
+			border-bottom: 1px solid rgb(206, 206, 206) ;
+			background-color: rgb(245,245,245);
+			font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 1, 1, 1 );
+  			line-height: 60px;
+  			
+        }
+        .travel-list5-1{
+        	height: 32px;
+			margin-top: 45px;
+        }
+        .travel-list5-1-1{
+        	width: 45px;
+        	margin-left: 74px;
+        	font-size: 18px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 1, 1, 1 );
+  			line-height: 32px;
+  			float: left;
+        }
+        
+        .travel-list5-1 a{
+			color: rgb(0,0,0);
+        }
+        .travel-list5-1-li1{
+        	font-size: 20px;
+        	border-width: 1px;
+  			border-color: rgb( 181, 181, 181 );
+  			border-style: solid;
+  			width: 30px;
+  			height: 30px;
+  			text-align: center;
+  			float: left;
+        }
+        .travel-list5-1-li2{
+        	border-width: 1px;
+  			border-color: rgb( 181, 181, 181 );
+  			border-style: solid;
+  			width: 43px;
+  			height: 30px;
+  			font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			text-align: center;
+  			float: left;
+        }
+        .travel-list5-1-2{
+        	margin-left: 15px;
+        	font-size: 14px;
+  			font-family: "Microsoft YaHei";
+ 	 		color: rgb( 102, 102, 102 );
+  			line-height: 32px;
+  			float: left;
+        }
+        .travel-list5-2{
+        	height: 32px;
+			margin-top: 30px;
+        }
+        .travel-list6{
+			margin-top: 104px;
+			margin-left: 30px;
+			font-size: 14.002px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			line-height: 2.132;
+        }
+        .travel-list7{
+        	margin-top: 37px;
+        	margin-left: 880px;
+        	font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 102, 102, 102 );
+  			float:left;
+        }
+        .travel-list8{
+        	margin-left: 28px;
+        	margin-top: 27px;
+        	font-size: 13px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			float:left;
+        }
+        .travel-list9{
+        	margin-top: 81px;
+        	margin-left: 1000px;
+        	width: 138px;
+  			height: 35px;
+            border-radius: 10px;
+ 			background-color: rgb( 232, 66, 10 );          
+            font-size: 20px;
+            font-family: "Microsoft YaHei";
+            text-align: center;
+            line-height: 35px;
+        }
+        .travel-list9 a{
+        	color: rgb( 255, 255, 255 );
         }
         .resres{
             height: 1915px;
@@ -551,6 +485,40 @@
             line-height: 40px;
             margin-left: 65px;
         }
+        .photo{
+        	height: 155px;
+        	width: 288px;
+        	border-radius: 5px;
+        	background-color: rgb(255,255,255);
+        	margin-top: 43px;
+        	margin-left: 115px;
+        	float: left;
+        	line-height: 155px;
+        	text-align: center;
+        }
+        .photo1{
+        	height: 155px;
+        	width: 288px;
+        	border-radius: 5px;
+        	background-color: rgb(255,255,255);
+        	margin-top: 43px;
+        	margin-left: 15px;
+        	float: left;
+        	line-height: 155px;
+        	text-align: center;
+        }
+        .div3{
+          
+           
+            height: 796px;
+            width: 100%;
+            background-color: rgb(0,0,0);
+        }
+        .div4{
+             margin: auto;
+            height: 796px;
+            width: 1430px;
+       }
         .shang{
               height: 275px;
               width: 1428px;
@@ -871,4 +839,3 @@
             color: rgb( 255, 255, 255 );
             text-align: center;
         }
-
