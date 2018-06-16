@@ -373,9 +373,8 @@ ul{
 .point_box{
 	height: 24px；
 	width:108px;
-	margin-left: 750px;
-	margin-top: 514px;
-	float: left;
+	margin:0 auto;
+	margin-top: 540px;
 }
 .point{
 	height: 20px;

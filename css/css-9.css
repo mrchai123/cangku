@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-05-29 21:07:44
 * @Last Modified by:   mrchai123
-* @Last Modified time: 2018-06-06 11:35:11
+* @Last Modified time: 2018-06-10 15:57:00
 */
         *{
 			padding: 0;
@@ -433,15 +433,12 @@
             height: 40px;
             width: 140px;
             background-color:rgb(232,66,10) ;
-            border-top-left-radius:10px;
-            border-top-right-radius:10px ;
-            border-bottom-right-radius:10px;
-            border-bottom-left-radius:10px;
+            border-radius:10px;
             margin-left: 1028px;
             margin-top: 20px;
             font-size: 20px;
             font-family: "Microsoft YaHei";
-            color: rgb( 255, 254, 254 );
+            color: rgb( 255, 255, 255 );
             text-align: center;
             line-height: 40px;
             

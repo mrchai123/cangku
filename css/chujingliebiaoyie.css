@@ -44,11 +44,14 @@ body{
 	margin-top: 15px;
 }
 .b2{
-	float: left;
+    float: left;
+    margin-top: -50px;
+    margin-left: 520px;
+	/*float: left;
 	position: absolute;
 	top: 70px;
 	left: 565px;
-	/*margin-top: -70px;*/
+*/	/*margin-top: -70px;*/
 }
 .b2 li{
 	display: inline;
@@ -95,29 +98,30 @@ a:visited{
 .alway:hover .cont{
 	display: block;
 }
-.c{
-	width: 1200px;
+
+.n
+{
+    display: block;
+    margin-top: 120px;
+    margin-left: 115px;
 }
-.c div{
-	float: left;
-	font-size: 18px;
-	margin-top: 125px;
-	margin-bottom: 30px;
+.n div{
+    float: left;
+    font-size: 18px;
+
 }
-.c a{
-	text-decoration: none;
-	color: black;
+.n  a{
+    text-decoration: none;
+    color: black;
 }
-
-
-
-
-
-
+.n a:hover{
+    color: gray;
+    background-color: white;
+}
 
 
 .e{
-	margin-top: 190px;
+	margin-top: 220px;
 	margin-left: 115px;
 }
 .e td{
@@ -131,7 +135,7 @@ a:visited{
 	height: 55px;
 	background-color: rgb(28,80,128);
 	text-align: center;
-}
+    color: white;
 }
 .e2{
 	width: 145px;
