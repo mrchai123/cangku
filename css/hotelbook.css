@@ -1,0 +1,80 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.boxbig{
+	width: 750px;
+	height: 6826px;
+	margin:auto;
+}
+.dh{
+	width: 750px;
+	height: 115px;
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	background-color: rgb(254,254,254);
+}
+.dh div{
+	margin-top: 26px;
+	margin-left: 42px;
+	float: left;
+}
+.ann{
+	margin-top: 34px;
+	margin-left: 196px;
+	width: 165px;
+	height: 55px;
+	border-radius: 15px;
+	background-color: rgb(235,66,10);
+	float: left;
+	border:none; 
+	font-size: 28px;
+	font-family:"Simsun";
+	color: rgb( 254, 254, 254 );
+
+}
+.dh p{
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+}
+.boxend{
+	width: 666px;
+	height: 439px;
+	padding:64px 42px 0px 42px; 
+	text-align: center;
+	font-size: 22px;
+	color: rgb(255,255,255);
+	font-style: "Microsoft YaHei";
+	background-image: url(../images/2-bj_02.jpg);
+	float: left;
+
+}
+.boxend div{
+	width: 660px;
+	height: 96px;
+	border-width: 3px;
+	border-style: solid;
+	text-align: center;
+	line-height: 95px;
+	font-size: 30px;
+	color: rgb(255,255,255);
+	font-style: "Microsoft YaHei";
+	float: left;
+}
+.a1{
+	width: 750px;
+	height: 450px;
+	margin-top: 115px;
+}
+.a1 img{
+	width: 750px;
+	height: 450px;
+}
