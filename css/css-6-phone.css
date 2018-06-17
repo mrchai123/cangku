@@ -2,7 +2,7 @@
 * @Author: mrchai123
 * @Date:   2018-06-16 18:20:24
 * @Last Modified by:   mrchai123
-* @Last Modified time: 2018-06-17 13:09:51
+* @Last Modified time: 2018-06-17 14:41:18
 */
 *{
   padding:0px;
@@ -16,13 +16,13 @@ li{
 }
 .boxbig{
 	width: 750px;
-	height: 5508px;
+	height: 4285px;
 	margin:auto;
 }
 .dh{
 	width: 750px;
 	height: 115px;
-	
+	position: fixed;
 	top:0px;
 	background-color: rgb(254,254,254);
 }
@@ -118,6 +118,62 @@ li{
   	float: left;
   	text-align: center;
 }
+.div-2-4{
+	margin-top: 60px;
+	font-size: 22px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 102, 102, 102 );
+  	line-height: 50px;
+}
+.div-2-5{
+	height: 45px;
+	margin-top: 85px;
+	font-size: 22px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 102, 102, 102 );
+	line-height: 45px;
+}
+.div-2-6{
+	height: 87px;
+	width: 670px;  
+	margin-top: 98px;
+	border-radius: 5px;
+  	background-color: rgb( 232, 66, 10 );
+  	font-size: 30px;
+ 	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 87px;
+  	text-align: center;
+}
+.div-3{
+	height: 985px;
+	width: 750px;
+}
+.div-3-1{
+	height: 64px;
+	width: 750px;
+	margin-top: 60px;
+	border-bottom: 2px solid rgb(28,80,128);
+}
+.div-3-1-div{
+	background-color: rgb( 28, 80, 128 );
+  	width: 207px;
+  	height: 64px;
+  	font-size: 30px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 64px;
+  	text-align: center;
+}
+.div-3-2{
+	height: 779px;
+	width: 666px;
+	border-width: 1px;
+  	border-color: rgb( 181, 181, 181 );
+  	border-style: solid;
+  	margin-top: 28px;
+  	margin-left: 28px;
+}
 .box-3{
 	width: 670px;
 	height: 210px;
@@ -169,7 +225,7 @@ li{
 	font-size: 22px;
 	color: rgb(255,255,255);
 	font-style: "Microsoft YaHei";
-	background-image: url(../images/2-bj_02.jpg);
+	background-color: rgb(52,50,53);
 	float: left;
 
 }
