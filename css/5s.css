@@ -40,6 +40,20 @@ li{
 	margin-left: 40px;
 	float: left;
 }
+.box-1{
+	width: 750px;
+	height: 315px;
+	background-image: url(../images/2-bj_02.jpg);
+	text-align: center;
+	padding-top: 50px;
+	float: left;
+}
+.box-1 p{
+	font-size: 40px;
+    font-family: "SimSun";
+    color: rgb( 28, 80, 128 );
+    line-height: 1.8;
+}
 .d{
 	height: 2400px;
 	width: 718px;

@@ -1,273 +1,153 @@
 *{
-	padding: 0px;
-	margin: 0px;
+  padding:0px;
+  margin:0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
 }
 body{
-	width: 1428px;
-	margin: 0 auto;
+    margin:auto;
 }
 .a{
-	background-image: url(../images/54.png);
-	height: 45px;
+    background-image: url(../images/54.png);
+    height: 45px;
     margin:auto;
-	/*float: left;*/
+    /*float: left;*/
 }
 .a1{
-	float: left;
-	/*font-size: 20px;color: #fff;*/
-	margin-left: 1050px;
-	margin-top: 10px;
+    float: left;
+    /*font-size: 20px;color: #fff;*/
+    margin-left: 1050px;
+    margin-top: 10px;
 }
 .a2{
-	float: left;
-	line-height: 45px;
-	font-size: 20px;color: #fff;
-	margin-left: 5px;
-	
+    float: left;
+    line-height: 45px;
+    font-size: 20px;color: #fff;
+    margin-left: 5px;
+    
 }
 .a3{
-	float: left;
-	line-height: 45px;
-	font-size: 14px;
-	margin-left: 40px;
+    float: left;
+    line-height: 45px;
+    font-size: 14px;
+    margin-left: 40px;
 }
 .a3 a{
-	text-decoration: none;
-	color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 .b{
-	height: 80px;
-	margin:auto;
+    height: 80px;
+    float: left;
 }
 .b1{
-	margin-left: 37px;
-	margin-top: 15px;
+    margin-left: 37px;
+    margin-top: 15px;
 }
 .b2{
     float: left;
-    margin-top: -50px;
-    margin-left: 520px;
-	/*float: left;
-	position: absolute;
-	top: 70px;
-	left: 565px;
-*/	/*margin-top: -70px;*/
+    position: absolute;
+    top: 70px;
+    left: 565px;
+    /*margin-top: -70px;*/
 }
 .b2 li{
-	display: inline;
-	float: left;
-	margin-left: 45px;
-	font-size: 20px;
-	list-style: none;
+    display: inline;
+    float: left;
+    margin-left: 45px;
+    font-size: 20px;
+    list-style: none;
 }
 .b2 a{
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 a:visited{
-	padding-bottom: 26px;
-	border-bottom: 4px solid rgb(232,66,10);
+    padding-bottom: 26px;
+    border-bottom: 4px solid rgb(232,66,10);
 }
 .b2 a:hover{
-	padding-bottom: 26px;	
+    padding-bottom: 26px;   
     background-color: white;
     color: red;
-	border-bottom: 4px solid rgb(232,66,10) ;
+    border-bottom: 4px solid rgb(232,66,10) ;
 }
-.alway{
-	position: fixed;
-	top:140px;
-	right : 0px;
+.box-1{
+    width: 1428px;
+    height: 398px;
+    background-image: url(../images/2-bj3_02.jpg);
+    margin:auto;
 }
-.alway td{
-	text-align: center;
-	width: 45px;
-	height: 45px;
-	background-color: blue;
-	margin-bottom: 2px;
-}
-
-.cont{
-	position: fixed;
-	top: 230px;
-	right: 65px;
-	width: 100px;
-	height: 100px;
-	display: none;
-}
-.alway:hover .cont{
-	display: block;
-}
-
-.n
-{
-    display: block;
-    margin-top: 120px;
-    margin-left: 115px;
-}
-.n div{
-    float: left;
-    font-size: 18px;
-
-}
-.n  a{
-    text-decoration: none;
-    color: black;
-}
-.n a:hover{
-    color: gray;
-    background-color: white;
-}
-
-
-.e{
-	margin-top: 220px;
-	margin-left: 115px;
-}
-.e td{
-	border-bottom: 1px solid gray;
-	margin-top: 0px;
-	line-height: 55px;
-	/*text-align: center;*/
-}
-.e1{
-	width: 145px;
-	height: 55px;
-	background-color: rgb(28,80,128);
-	text-align: center;
-    color: white;
-}
-.e2{
-	width: 145px;
-	height: 55px;
-	
-}
-.e2{
-	text-align: center;
-	background-color: rgb(245,245,245);
-}
-.e3{
-	width: 1055px;
-
-}
-
-.e4{
-	color: blue;
-	display: inline-block;
-}
-
-.e5{
-	margin-top: 30px;
-	border-bottom: 1px solid gray;
-	border-top:1px solid gray;
-	background-color: rgb(245,245,245);
-	height: 45px;
-	line-height: 45px;
-}
-.e51{
-	float: left;
-}
-.e52{
-	float: right;
-}
-.e3 a{
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    line-height: 58px;
-}
-.e3 a:hover{
-    border-bottom: 2px solid blue;
-    color: blue;
-    background-color: white;
-}
-.e31,.e32,.e33,.e34,.e35,.e36,.e37{
-    float: left;
-    margin-left: 20px;
-}
-.con{
-    display: none;
-}
-a:hover +.con{
-    display: block;
-}
-.f{
-	margin-left: 115px;
-	float: left;
-}
-.ff1{
-	float: left;
-	margin-bottom: 35px;
-	margin-top: 35px;
-}
-.ff{
-	margin-left: 23px;
-	float: left;
-	line-height: 25px;
-	font-size: 14px;
+.d{
+	height: 2813px;
+	width: 1220px;
+	margin:auto;
 	margin-top: 23px;
+	padding:16px 110px;
 }
-.ff2{
-	font-size: 24px;
-	line-height: 50px;
-}
-
-.f span{
-	/*font-size: 20px;*/
-	/*margin-right: 205px;*/
-}
-.ff3{
-	font-size: 36px;
-	color: red;
-	/*margin-right: 205px;*/
-	margin-left: 325px;
-}
-.f a{
-	display: inline-block;
-	margin-left: 35px;
-	height: 35px;
-	width: 135px;
-	background-color: red;
-	border-radius: 10px;
+.d>div{
+	width: 404px;
 	text-align: center;
-	text-decoration: none;
-	color: white;
+	float: left;
+}
+.d li{
+	width: 394px;
+	margin: 5px;
+	float: left;
+	background-color: rgb(245,245,245);
+}
+.d>div>ul>li div{
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+.d>div button{
+	width: 132px;
+	height: 34px;
+	background-color: rgb(235,66,10);
+	border:none;
+	border-radius: 10px;
+	font-family: "Simsun";
+	color: rgb( 255, 254, 254 );
 	font-size: 16px;
-	line-height: 35px;
+	margin-bottom: 40px;
+	margin-top: 18px;
 }
-.h{
-	margin-left: 900px;
-	margin-top: 1670px;
+.d p{
+	font-size: 16px;
+	line-height: 1.9;
+	font-family: "Microsoft YaHei";
 }
-.h a{
-	line-height: 35px;
-	height: 35px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-right: 2px;
-	text-decoration: none;
-	color: rgb(215,215,215);
-	border:0.5px solid rgb(215,215,215);
+.d>span button{
+	height: 46px;
+	width: 298px;
+	font-size: 18px;
+	color: rgb(102,102,102);
+	font-family: "Microsoft YaHei";
+	border-color: rgb(181,181,181);
+	border-width: 1px;
+	background-color: rgb(254,254,254);
 	border-radius: 5px;
+	margin-top: 92px;
 }
-a:hover{
-	background-color: blue;
-	color: white;
-}
-
-
 .div3{
-            float: left;
-            margin-top: 120px;            
-            height: 796px;
-            width: 1430px;
-            background-color: rgb(0,0,0);
+height: 796px;
+width: 100%;
+background-color: rgb(0,0,0);
+}
+.div4{
+margin: auto;
+height: 796px;
+width: 1430px;
 }
 .shang{
-              height: 275px;
-              width: 1428px;
-              border-bottom: 1px solid rgb(64,64,64);
-              float: left;
+        height: 275px;
+        width: 1428px;
+        border-bottom: 1px solid rgb(64,64,64);
+        float: left;
         }
         .zhong{
             height:368px ;
@@ -582,7 +462,4 @@ a:hover{
             font-family: "Microsoft YaHei";
             color: rgb( 255, 255, 255 );
             text-align: center;
-        }
-        .div3 a{
-			text-decoration: none;
         }
