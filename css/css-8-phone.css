@@ -2,7 +2,7 @@
 * @Author: mrchai123
 * @Date:   2018-06-13 10:07:42
 * @Last Modified by:   mrchai123
-* @Last Modified time: 2018-06-15 18:57:24
+* @Last Modified time: 2018-06-17 13:45:12
 */
 *{
   padding:0px;
@@ -24,7 +24,6 @@ li{
 	height: 115px;
 	position: fixed;
 	top:0px;
-	
 	background-color: rgb(254,254,254);
 }
 .dh div{
@@ -65,10 +64,10 @@ li{
 	float: left;
 }
 .box-1-p1{
-	 font-size: 40px;
-  font-family: "FZLTXHK";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.5;
+	font-size: 40px;
+  	font-family: "FZLTXHK";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 1.5;
     margin-top: 85px;
     margin-left: 292px;
     
@@ -217,6 +216,7 @@ li{
 	margin-left: 20px;
 	float: left;
 }
+
 .div-word1{
 	font-size: 28px;
   	font-family: "Microsoft YaHei";
@@ -413,7 +413,7 @@ li{
 	font-size: 22px;
 	color: rgb(255,255,255);
 	font-style: "Microsoft YaHei";
-	background-image: url(../images/2-bj_02.jpg);
+	background-color: rgb(52,50,53);
 	float: left;
 
 }
