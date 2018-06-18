@@ -1,0 +1,250 @@
+/*
+* @Author: mrchai123
+* @Date:   2018-06-16 18:20:24
+* @Last Modified by:   mrchai123
+* @Last Modified time: 2018-06-17 14:41:18
+*/
+*{
+  padding:0px;
+  margin:0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.boxbig{
+	width: 750px;
+	height: 4285px;
+	margin:auto;
+}
+.dh{
+	width: 750px;
+	height: 115px;
+	position: fixed;
+	top:0px;
+	background-color: rgb(254,254,254);
+}
+.dh div{
+	margin-top: 26px;
+	margin-left: 42px;
+	float: left;
+}
+.ann{
+	margin-top: 34px;
+	margin-left: 196px;
+	width: 165px;
+	height: 55px;
+	border-radius: 15px;
+	background-color: rgb(235,66,10);
+	float: left;
+	border:none; 
+	font-size: 28px;
+	font-family:"Simsun";
+	color: rgb( 254, 254, 254 );
+
+}
+.dh p{
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+}
+.div-1{
+	height: 453px;
+	width: 750px;
+	background-image: url(../images/1-jinselieche-2_02.png);
+}
+.div-2{
+	height: 1238px;
+	width: 668px;
+	margin-left: 40px;
+}
+.div-2-1{
+	height: 252px;
+	width: 668px;
+	margin-top: 47px;
+}
+.div-2-1 span{
+	font-size: 36px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 0, 0, 0 );
+  	line-height: 90px;
+}
+.div-2-1 p{
+	font-size: 22px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 102, 102, 102 );
+  	line-height: 40px;
+}
+.div-2-2{
+	height: 62px;
+	margin-top: 57px;
+	line-height:57px ;
+}
+.div-2-2-div{
+  	border-width: 2px;
+  	border-color: rgb( 232, 66, 10 );
+  	border-style: solid;
+  	width: 314px;
+  	height: 59px;
+ 	line-height: 59px;
+ 	margin-left: 23px;
+ 	float: left;
+ 	font-size: 20px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 1, 1, 1 );
+}
+.div-2-2-div a{
+	color: rgb(0,0,0);
+}
+.div-2-3{
+	font-size: 20px;
+	margin-top: 41px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 20px;
+}
+.div-2-3-ul{
+	list-style: none;
+	float: left;
+}
+.div-2-3-ul li{
+	width: 83px;
+  	height: 59px;
+  	border-width: 1px;
+  	border-color: rgb( 181, 181, 181 );
+  	border-style: solid;
+  	float: left;
+  	text-align: center;
+}
+.div-2-4{
+	margin-top: 60px;
+	font-size: 22px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 102, 102, 102 );
+  	line-height: 50px;
+}
+.div-2-5{
+	height: 45px;
+	margin-top: 85px;
+	font-size: 22px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 102, 102, 102 );
+	line-height: 45px;
+}
+.div-2-6{
+	height: 87px;
+	width: 670px;  
+	margin-top: 98px;
+	border-radius: 5px;
+  	background-color: rgb( 232, 66, 10 );
+  	font-size: 30px;
+ 	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 87px;
+  	text-align: center;
+}
+.div-3{
+	height: 985px;
+	width: 750px;
+}
+.div-3-1{
+	height: 64px;
+	width: 750px;
+	margin-top: 60px;
+	border-bottom: 2px solid rgb(28,80,128);
+}
+.div-3-1-div{
+	background-color: rgb( 28, 80, 128 );
+  	width: 207px;
+  	height: 64px;
+  	font-size: 30px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 64px;
+  	text-align: center;
+}
+.div-3-2{
+	height: 779px;
+	width: 666px;
+	border-width: 1px;
+  	border-color: rgb( 181, 181, 181 );
+  	border-style: solid;
+  	margin-top: 28px;
+  	margin-left: 28px;
+}
+.box-3{
+	width: 670px;
+	height: 210px;
+	padding:0px 40px;
+	float: left;
+}
+.box-3-1{
+	margin-top: 46px;
+	float: left;
+}
+.box-3-2{
+	height: 210px;
+	width: 370px;
+	margin-left: 19px;
+	float: left;
+}
+.box-3 p{
+	font-size: 22px;
+	color: rgb(102,102,102);
+	line-height: 1.636;
+	font-family: "Microsoft YaHei";
+	float: left;
+}
+.box-3 span{
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 26px;
+	float: left;
+	color: #e8420a;
+}
+.box-3 button{
+	width: 166px;
+	height: 54px;
+	border-color: #b5b5b5;
+	background-color: rgb(255,255,255);
+	border-width: 1px;
+	border-radius:10px;
+	font-size: 28px;
+	font-family: "SimSun";
+	color: rgb(102,102,102);
+	margin-top: 78px;
+	float: right;
+}
+.boxend{
+	width: 666px;
+	height: 439px;
+	padding:64px 42px 0px 42px; 
+	text-align: center;
+	font-size: 22px;
+	color: rgb(255,255,255);
+	font-style: "Microsoft YaHei";
+	background-color: rgb(52,50,53);
+	float: left;
+
+}
+.boxend div{
+	width: 660px;
+	height: 96px;
+	border-width: 3px;
+	border-style: solid;
+	text-align: center;
+	line-height: 95px;
+	font-size: 30px;
+	color: rgb(255,255,255);
+	font-style: "Microsoft YaHei";
+	float: left;
+}
+.div-hr{
+	height:19px ;
+	width: 100%;
+	background-color: rgb(245,245,245);
+	margin-top: 95px;
+	float: left;
+}

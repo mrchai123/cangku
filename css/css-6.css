@@ -1,0 +1,841 @@
+/*
+* @Author: mrchai123
+* @Date:   2018-06-10 10:57:14
+* @Last Modified by:   mrchai123
+* @Last Modified time: 2018-06-10 16:30:08
+*/
+ *{
+			padding: 0;
+			margin: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		
+		.clear:after{
+			content: '';
+			height: 0;
+			display: block;
+			clear: both;
+		}
+		.top{
+        	height: 45px;
+        	background-color: rgb(51,51,51);
+            width: 100%;
+        }
+        .top-0{            
+            margin: auto;
+            width: 1430px;
+        }
+        .div0{
+            height: 84px;
+        	width: 100%;
+        }
+        .div1{
+            
+            height: 84px;
+        	width: 100%;
+            margin: auto;
+            width: 1430px;
+        }
+        .xiaolian{
+        	padding-left: 1055px;
+        	font-size: 20px;
+        	line-height: 45px;
+        	color: rgb(255,255,255);
+        }
+        .denglu{
+        	width: 56px;
+        	height: 14px;
+        	margin-left: 1290px;
+        	line-height: 45px;
+        }
+        .denglu a{
+        	color: rgb(255,255,255);
+        	font-size: 14px;
+        }
+        .zhuce{
+            padding-top: 15px;
+        	margin-left: 13px;
+        	color: rgb(255,255,255);
+        }
+        .zhuce-shu{
+            margin-left: 1345px;
+                 
+        }
+        .daohang{
+        	height: 80px;
+        	width: 1430px;
+        }
+        .daohang1{
+        	height: 80px;
+        	width:220px;
+        	margin-left: 40px;
+        	margin-top: 15px;
+        	float: left;
+        }
+        .daohang2{
+        	float: left;
+        	margin-left: 363px;
+            height: 80px;
+        }
+        .daohang2 > ul > li {
+        	float: left;
+            display: block; 
+            margin-left: 35px;
+            text-align: center;
+            line-height: 80px;
+        }
+        .daohang2 a{
+        	color: rgb(0,0,0);
+        	font-size: 20px;
+        }
+        .daohang2 li:hover>a{
+        	color: rgb(232,66,10);
+        }
+        .daohang2 li:hover{
+        	border-bottom: 4px solid rgb(232,66,10);
+        }
+        .daohang2 li:link>a{
+        	color: rgb(232,66,10);
+        }
+        .daohang2 li:link{
+        	border-bottom: 2px solid rgb(232,66,10);
+        }
+        .div2{
+          
+        
+        	width: 100%;
+        	background-color: rgb(245,245,245);
+        	height: 3630px;
+            margin: auto;
+        }
+        .div5{
+            margin: auto;
+            width: 1430px;
+            height: 3630px;
+        }
+         .you-logo{
+            position: fixed;
+            margin-left:1380px ;
+        }
+         .you-logo ul> li{
+            display: block;
+            height: 47px;
+            width: 47px;
+            text-align:center ;
+            line-height: 67px;
+            margin-top: 1px;
+            background-color: rgb(28,80,128);
+            font-size: 20px;
+
+        }
+        .you-logo a{
+        	color: rgb(255,255,255);
+        	font-size: 20px;
+        	text-align: center;
+        }
+        .top-line{
+        	/* position: absolute; */
+        	width: 1200px;
+        	height: 100px;
+        	line-height: 100px;
+        	margin-left: 115px;
+        	font-size: 18px;
+            text-align: left;
+            float: left;
+            background-color: rgb(245,245,245);
+        }
+        .jiudian{
+        	/* position: absolute; */
+        	margin-top: 35px;
+        	margin-left: 115px;
+        	height: 575px;
+        	width: 1200px;
+        	background-color: rgb(255,255,255);
+            float: left;
+        }
+        .mangu{
+        	margin-left:15px ;
+        	margin-top: 15px;
+        	height: 429px;
+        	width: 677px;
+        	float: left;
+        }
+        .mangujieshao{
+        	float: left;
+        	margin-top: 50px;
+        	margin-left: 30px;
+        	height: 400px;
+        	width: 440px;
+        	font-size: 16px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 102, 102, 102 );
+            line-height: 40px;
+        }
+        .head1{
+        	font-size: 30px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 0, 0, 0 );
+            line-height: 30px;
+        }
+        .dj1{
+            margin-left: 10px;
+            margin-top: 5px;
+            float: left;
+            width: 166px;
+            height: 106px;
+        }
+        .dj{
+            margin-left: 5px;
+            margin-top: 5px;
+            float: left;
+            width: 166px;
+            height: 106px;
+        }
+        .travel-list{
+            height: 609px;
+            width: 1200px;
+            margin-left: 115px;
+            margin-top: 50px;
+            background-color: rgb(255,255,255);
+            border: 1px solid rgb(206, 206, 206) ;
+            float: left;
+            display: inline-block;
+        }
+        .travel-list0{
+        	float: left;
+        }
+        .travel-list1{
+            height: 49px;
+            width: 197px;
+            background-color: rgb(28,80,128);
+            font-size: 24px;
+            color: rgb( 255, 255, 255 );
+            line-height: 50px;
+            text-align: center;
+            
+        }
+        .travel-list2{
+			height: 60px;
+			width: 720px;
+			border: 1px solid rgb(206, 206, 206) ;
+			background-color: rgb(245,245,245);
+			font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 1, 1, 1 );
+  			line-height: 60px;
+			
+        }
+        .travel-list3{
+			height: 60px;
+			width: 720px;
+			border: 1px solid rgb(206, 206, 206) ;
+			border-top: 0px;
+			background-color: rgb(255,255,255);
+			font-size: 22px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 28, 80, 128 );
+  			line-height: 60px;
+			
+
+        }
+        .travel-list3 a{
+			color: rgb( 28, 80, 128 );
+        }
+        .travel-list4{
+        	height:290px ;
+        	width: 722px;
+        	border: 0.5px solid rgb(206,206,206);
+
+        }
+        .travel-list4 th{
+        	height: 46px;
+        	width: 105px;
+        	border: 0.5px solid rgb(206,206,206);
+        }
+        .travel-list4 td{
+        	height: 46px;
+        	width: 105px;
+        	border: 0.5px solid rgb(206,206,206);
+        	text-align: right;
+        }
+        .travel-list4 span{
+        	font-size: 14.002px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			
+
+        }
+        .travel-list4 p{
+        	font-size: 16.003px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 0, 0, 0 );	
+        }
+        .travel-list5{
+        	height: 415px;
+        	width: 469px;
+        	border: 1px solid rgb(206,206,206);
+        	border-right: 0px;
+        	margin-top: 49px;
+        	margin-left: 730px;
+        }
+        .travel-list5-0{
+        	height: 60px;
+			border-bottom: 1px solid rgb(206, 206, 206) ;
+			background-color: rgb(245,245,245);
+			font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 1, 1, 1 );
+  			line-height: 60px;
+  			
+        }
+        .travel-list5-1{
+        	height: 32px;
+			margin-top: 45px;
+        }
+        .travel-list5-1-1{
+        	width: 45px;
+        	margin-left: 74px;
+        	font-size: 18px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 1, 1, 1 );
+  			line-height: 32px;
+  			float: left;
+        }
+        
+        .travel-list5-1 a{
+			color: rgb(0,0,0);
+        }
+        .travel-list5-1-li1{
+        	font-size: 20px;
+        	border-width: 1px;
+  			border-color: rgb( 181, 181, 181 );
+  			border-style: solid;
+  			width: 30px;
+  			height: 30px;
+  			text-align: center;
+  			float: left;
+        }
+        .travel-list5-1-li2{
+        	border-width: 1px;
+  			border-color: rgb( 181, 181, 181 );
+  			border-style: solid;
+  			width: 43px;
+  			height: 30px;
+  			font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			text-align: center;
+  			float: left;
+        }
+        .travel-list5-1-2{
+        	margin-left: 15px;
+        	font-size: 14px;
+  			font-family: "Microsoft YaHei";
+ 	 		color: rgb( 102, 102, 102 );
+  			line-height: 32px;
+  			float: left;
+        }
+        .travel-list5-2{
+        	height: 32px;
+			margin-top: 30px;
+        }
+        .travel-list6{
+			margin-top: 104px;
+			margin-left: 30px;
+			font-size: 14.002px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			line-height: 2.132;
+        }
+        .travel-list7{
+        	margin-top: 37px;
+        	margin-left: 880px;
+        	font-size: 20px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 102, 102, 102 );
+  			float:left;
+        }
+        .travel-list8{
+        	margin-left: 28px;
+        	margin-top: 27px;
+        	font-size: 13px;
+  			font-family: "Microsoft YaHei";
+  			color: rgb( 232, 66, 10 );
+  			float:left;
+        }
+        .travel-list9{
+        	margin-top: 81px;
+        	margin-left: 1000px;
+        	width: 138px;
+  			height: 35px;
+            border-radius: 10px;
+ 			background-color: rgb( 232, 66, 10 );          
+            font-size: 20px;
+            font-family: "Microsoft YaHei";
+            text-align: center;
+            line-height: 35px;
+        }
+        .travel-list9 a{
+        	color: rgb( 255, 255, 255 );
+        }
+        .resres{
+            height: 1915px;
+            width: 1200px;
+            border: 1px solid rgb(206, 206, 206) ;
+            margin-left: 115px;
+            margin-top:50px; 
+            background-color: rgb(255,255,255);
+            float: left;
+        }
+        .resres > ul >li{
+            list-style:none ;
+        }
+        .li-a{
+            width: 1200px;
+            height: 64px;
+            border-bottom: 2px solid rgb(28,80,128);
+        }
+        .li-a-1{
+            height: 65px;
+            width: 206px;
+            background-color: rgb(28,80,128);
+            font-size: 24px;
+            color: rgb( 255, 255, 255 );
+            line-height: 65px;
+            text-align: center;
+        }
+        .li-b{
+            width: 1200px;
+            height: 404px;
+            border-bottom: 2px solid rgb(206, 206, 206) ;
+        }
+        .li-b-1{
+            height: 30px;
+            width: 155px;
+            border-left: 4px solid rgb(232,66,10);
+            font-size: 30px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 0, 0, 0 );
+            line-height: 30px;
+            margin-left: 30px;
+            margin-top: 35px;
+            padding-left: 30px;
+        }
+        .li-b-2{
+            margin-top: 10px;
+            margin-left: 65px;
+            margin-right: 25px;
+            font-size: 20px;
+            line-height: 40px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 102, 102, 102 );
+           
+        }
+        .li-c{
+            height: 230px;
+            width: 1200px;
+            border-bottom: 2px solid rgb(206, 206, 206) ;
+
+        }
+        .li-c-1{
+            font-size: 20px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 0, 0, 0 );
+            line-height: 40px;
+            margin-top: 18px;
+            margin-left: 65px;
+            
+        }
+        .li-d{
+            height: 150px;
+            width: 1200px;
+            border-bottom: 2px solid rgb(206, 206, 206) ;
+        }
+        .li-e{
+            height: 415px;
+            width: 1200px;
+            border-bottom: 2px solid rgb(206, 206, 206) ;
+        }
+        .li-e-1{
+            height: 30px;
+            margin-top: 37px;
+            margin-left: 65px;
+            font-size: 24px;
+            font-family: "Microsoft YaHei";
+            color: rgb(0,0,0);
+        }
+        .li-e-2{
+            margin-top: 23px;
+            margin-left: 65px;
+            font-size: 20px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 102, 102, 102 );
+            line-height: 40px;
+        }
+        .li-f{
+            width: 1200px;
+
+        }
+        .li-f-1{
+            font-size: 20px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 102, 102, 102 );
+            line-height: 40px;
+            margin-left: 65px;
+        }
+        .photo{
+        	height: 155px;
+        	width: 288px;
+        	border-radius: 5px;
+        	background-color: rgb(255,255,255);
+        	margin-top: 43px;
+        	margin-left: 115px;
+        	float: left;
+        	line-height: 155px;
+        	text-align: center;
+        }
+        .photo1{
+        	height: 155px;
+        	width: 288px;
+        	border-radius: 5px;
+        	background-color: rgb(255,255,255);
+        	margin-top: 43px;
+        	margin-left: 15px;
+        	float: left;
+        	line-height: 155px;
+        	text-align: center;
+        }
+        .div3{
+          
+           
+            height: 796px;
+            width: 100%;
+            background-color: rgb(0,0,0);
+        }
+        .div4{
+             margin: auto;
+            height: 796px;
+            width: 1430px;
+       }
+        .shang{
+              height: 275px;
+              width: 1428px;
+              border-bottom: 1px solid rgb(64,64,64);
+              float: left;
+        }
+        .zhong{
+            height:368px ;
+            width: 1428px;
+            border-bottom: 1px solid rgb(64,64,64);
+            float: left;
+        }
+        .xia{
+            height: 154px;
+            width: 1428px;
+            float: left;
+        }
+        .about {
+            margin-top: 70px;
+            margin-left: 115px;
+            width: 72px;
+            height: 130px;
+            float: left;
+        }
+        .ul-xia {
+            width: 72px;
+            height: 40px;
+            list-style: none;
+            font-size: 18px;
+            color: rgb(255,255,255);
+            
+            line-height:40px ;
+        }
+        .ul-xia li{
+            width: 72px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            float: left;
+        }
+        .ul-xia a{
+            color: rgba( 255, 255, 255, 0.8 );
+        }
+        .web {
+            margin-top: 70px;
+            margin-left: 40px;
+            width: 72px;
+            height: 130px;
+            float: left;
+        }
+        .pay{
+            margin-top: 70px;
+            margin-left: 50px;
+            width: 72px;
+            height: 130px;
+            float: left;
+        }
+        .attention{
+            margin-top: 70px;
+            margin-left: 60px;
+            width: 110px;
+            height: 130px;
+            float: left;
+        }
+        .ul-xia-1 {
+            width: 110px;
+            height: 40px;
+            list-style: none;
+            font-size: 18px;
+            color: rgb(255,255,255);
+            
+            line-height:40px ;
+        }
+        .ul-xia-1 li{
+            width: 72px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 14px;
+            float: left;
+            text-align: center;
+
+        }
+        .ul-xia-1 a{
+            color: rgba( 255, 255, 255, 0.8 );
+        }
+        .guanfang{
+            margin-top: 115px;           
+            width: 66px;
+            height: 130px;
+            float: left;
+            color: rgb(255,255,255);
+
+        }
+        .guanfang ul{
+            list-style: none;
+        }
+        .guanfang li{
+            color: rgba(255,255,255,0.8);
+            height: 47px;
+            line-height: 47px;
+            font-size: 14px;
+            float: left;
+        }
+        .erweima{
+            width: 122px;
+            height: 110px;
+            margin-top: 123px;
+            float: left;
+        }
+        .phone{
+            height: 55px;
+            width: 55px;
+            margin-top: 73px;
+            margin-left:115px ;
+            float: left;
+        }
+        .ask{
+            height: 66px;
+            width: 120px;
+            margin-top: 73px;
+            margin-left: 10px;
+            float: left;
+        }
+        .ask ul{
+            font-size: 26px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 255, 255, 255 );
+            list-style: none;
+            
+        }
+        .ask li{
+            font-size: 13px;
+            font-family: "FZLTXHJW";
+            color: rgb( 255, 255, 255 );
+           
+        }
+        .phone-number{
+            width: 210px;
+            height: 73px;
+            line-height: 35px;
+            margin-top: 70px;
+            margin-left: 1107px;
+            font-size: 23px;
+            font-family: "FZLTXHJW";
+            color: rgb( 255, 255, 255 );'
+            float: left;
+        }
+        .email{
+            height: 85px;
+            width: 335px;
+            margin-left: 192px;
+           
+            color: rgb(255,255,255);
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 255, 255, 255 );
+            line-height: 1.869;
+            float: left;
+        }
+        .company{
+            height: 120px;
+            width: 600px;
+            margin-left: 115px;
+        }
+        .company ul {
+            font-size: 18px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 255, 255, 255 );
+            list-style: none;
+            line-height: 120px;
+        }
+        .company span{
+            width: 80px;
+            float: left;
+        }
+        .company li{
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+            color: rgba( 255, 255, 255, 0.8 );
+            margin-top: 50px;
+            float: left;
+            height: 75px;
+            width: 112px;
+            margin-left: 15px;
+            text-align: center;
+        }
+        .company-li-top{
+            height: 43px;
+            width: 111px;
+            background-color:rgb(255,255,255) ;
+            line-height: 65px;
+            float: left;
+        }
+        .company-li-bottom{
+            height: 18px;
+            width: 111px;
+            margin-top:10px ;
+            float: left;
+            line-height: 18px;
+        } 
+        .company-li-top-2{
+            height: 43px;
+            width: 77px;
+            background-color:rgb(255,255,255) ;
+            line-height: 65px;
+            float: left;
+        }
+        .company-li-bottom-2{
+            height: 18px;
+            width: 77px;
+            margin-top:10px ;
+            float: left;
+            line-height: 18px;
+           
+        }
+        .hot{
+            height: 53px;
+            width: 1100px;
+            margin-left: 115px;
+            margin-top: 30px;
+            float:left;
+        }
+        .hot ul{
+            font-size: 18px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 255, 255, 255 );
+            list-style: none;
+            float: left;
+        }
+        .hot span{
+            width: 80px;
+            float: left;
+            height: 50px;
+        }
+        .hot li{
+            font-size: 14px;
+            font-family: "Microsoft YaHei";           
+            float: left;
+            height: 30px;
+            margin-left: 10px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .hot a{
+            color: rgba( 255, 255, 255, 0.8 );
+        }
+        .theme{
+            height: 20px;
+            width: 1100px;
+            margin-left: 115px;
+            margin-top: 20px;
+            float:left;
+        }
+        .theme ul{
+            font-size: 18px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 255, 255, 255 );
+            list-style: none;
+            float: left;
+        }
+        .theme span{
+            width: 80px;
+            float: left;
+            height: 20px;
+        }
+        .theme li{
+            font-size: 14px;
+            font-family: "Microsoft YaHei";           
+            float: left;
+            height: 20px;
+            margin-left: 10px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .theme a{
+            color: rgba( 255, 255, 255, 0.8 );
+        }
+        .friendly{
+            height: 50px;
+            width: 1100px;
+            margin-left: 115px;
+            margin-top: 25px;
+            float:left;
+        }
+        .friendly ul{
+            font-size: 18px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 255, 255, 255 );
+            list-style: none;
+            float: left;
+        }
+        .friendly span{
+            width: 80px;
+            float: left;
+            height: 50px;
+        }
+        .friendly li{
+            font-size: 14px;
+            font-family: "Microsoft YaHei";           
+            float: left;
+            height: 30px;
+            margin-left: 10px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .friendly a{
+            color: rgba( 255, 255, 255, 0.8 );
+        }
+        .copyright{
+            height: 71px;
+            width: 545px;
+            margin-top: 35px;
+            margin-left: 445px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            color: rgb( 255, 255, 255 );
+            text-align: center;
+        }
