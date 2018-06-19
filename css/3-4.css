@@ -1,0 +1,282 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+p
+{
+	margin:0;
+}
+a
+{
+	text-decoration:none;
+}
+ul
+{
+	list-style:none;
+}
+.clear：after{
+	content: '';
+	height: 0;
+	display: block;
+	clear: both;
+}
+.m0{
+	width: 750px;
+	height: 100%;
+	margin: auto;
+	border: none;
+	
+}
+.dh{
+	width: 750px;
+	height: 115px;
+	margin:auto;
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	background-color: rgb(254,254,254);
+}
+.md{
+	margin-top: 30px;
+	margin-left: 45px;
+	float: left;
+}
+.ann{
+	margin-top: 34px;
+	margin-left: 230px;
+	width: 165px;
+	height: 55px;
+	border-radius: 15px;
+	background-color: rgb(235,66,10);
+	float: left;
+	border:none; 
+	font-size: 28px;
+	font-family:"Simsun";
+	color: rgb( 254, 254, 254 );
+
+}
+.m1{
+	padding-top: 40px;
+	padding-left: 40px;
+	float: left;
+	height: 80px;
+	width: 80px;
+}
+.m3{
+	margin-left: auto;
+	margin-top: 100px;
+}
+.m5{
+	margin-top: 0px;
+}
+.m4-1{
+	margin: auto;
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 750px;
+	height: 80px;
+	float: left;
+}
+.m4-2{
+	float: left;
+	line-height: 40px;
+	width: 20px;
+	height: 40px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.h3{
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-left: 15px;
+	font-family: '微软雅黑';
+}
+.m6{
+	width: 750px;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 50px;
+	float: left;
+}
+.m6 li{
+	float: left;
+	margin-left: 80px;
+	font-family: '微软雅黑';
+	font-size: 24px;
+	color: black;
+}
+.m6 li:hover{
+	color:#e8420a;
+}
+.m7{
+	background: url('../images/3-36.png') no-repeat center center;
+	margin: auto;
+	padding-left: 40px;
+	margin-top: 160px;
+	width: 700px;
+	height: 430px;
+}
+.m7-1{
+	padding-top: 350px;
+	font-size: 26px;
+	line-height: 50px;
+	color: rgb(255,255,255);
+	font-family: "Microsoft YaHei";
+}
+.m8{
+	background: url('../images/3-37.png') no-repeat center center;
+	width: 700px;
+	height: 430px;
+	padding-left: 40px;
+	margin: auto;
+}
+
+.box-4{
+	width: 670px;
+	height: 984px;
+	float: left;
+	padding:50px 40px;
+}
+.box-4-1{
+	width: 670px;
+	height: 30px;
+	padding-bottom: 20px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #b5b5b5;
+	float: left;
+}
+.box-4-1 div{
+	width: 4px;
+	height: 30px;
+	background-color: rgb(235,66,10);
+	float:left; 
+}
+.box-4-1 span{
+	font-size: 30px;
+	line-height: 30px;
+	font-family: "Microsoft YaHei";
+	color: rgb(0,0,0);
+	margin-left: 15px;
+	float: left;
+}
+.box-4-jp{
+	background: url('../images/3-42.png') no-repeat center center;
+	width: 670px;
+	height: 398px;
+	margin-top: 20px;
+	float: left;
+}
+.box-4-jq{
+	background: url('../images/3-46.png') no-repeat center center;
+	width: 670px;
+	height: 398px;
+	margin-top: 20px;
+	float: left;
+}
+.box-4-j1{
+	margin-top: 285px;
+}
+.box-4-j1 div{
+	margin-top: 10px;
+	width: 340px;
+	float: left;
+}
+.box-4-j1>div p{
+	font-size: 26px;
+	color: rgb(255,255,255);
+	font-family: "Microsoft YaHei";
+	line-height: 1.762;
+}
+.box-4-j1>p{
+	font-size: 20px;
+	color: rgb(255,255,255);
+	font-family: "Microsoft YaHei";
+	float: left;
+	margin-left: 144px;
+	line-height: 116px;
+}
+.butt{
+	width: 226px;
+	height: 54px;
+	border-color: #b5b5b5;
+	background-color: rgb(255,255,255);
+	border-width: 1px;
+	border-radius:10px;
+	font-size: 28px;
+	font-family: "SimSun";
+	color: rgb(102,102,102);
+	margin-top: 20px;
+	margin-left: 250px;
+	float: left;
+}
+.box-3{
+	width: 670px;
+	height: 210px;
+	padding:0px 40px;
+	float: left;
+}
+.box-3-1{
+	margin-top: 46px;
+	float: left;
+}
+.box-3-2{
+	height: 210px;
+	width: 370px;
+	margin-left: 19px;
+	float: left;
+}
+.box-3 p{
+	font-size: 22px;
+	color: rgb(102,102,102);
+	line-height: 1.636;
+	font-family: "Microsoft YaHei";
+	float: left;
+}
+.box-3 span{
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 26px;
+	float: left;
+	color: #e8420a;
+}
+.box-3 button{
+	width: 166px;
+	height: 54px;
+	border-color: #b5b5b5;
+	background-color: rgb(255,255,255);
+	border-width: 1px;
+	border-radius:10px;
+	font-size: 28px;
+	font-family: "SimSun";
+	color: rgb(102,102,102);
+	margin-top: 78px;
+	float: right;
+}
+.boxend{
+	margin: auto;
+	width: 666px;
+	height: 439px;
+	padding:64px 42px 0px 42px; 
+	text-align: center;
+	font-size: 22px;
+	color: rgb(255,255,255);
+	background:  url('../images/3-63.jpg');
+	float: left;
+
+}
+.boxend div{
+	width: 660px;
+	height: 96px;
+	border-width: 3px;
+	border-style: solid;
+	text-align: center;
+	line-height: 95px;
+	font-size: 30px;
+	color: rgb(255,255,255);
+	float: left;
+}
