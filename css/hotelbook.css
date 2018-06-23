@@ -53,7 +53,7 @@ li{
 	font-size: 22px;
 	color: rgb(255,255,255);
 	font-style: "Microsoft YaHei";
-	background-image: url(../images/2-bj_02.jpg);
+	background-color: #343235;
 	float: left;
 
 }
@@ -73,8 +73,229 @@ li{
 	width: 750px;
 	height: 450px;
 	margin-top: 115px;
+	background: url(../images/HBK_1.png) center no-repeat;
 }
-.a1 img{
+.a2{
+	width: 671px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.曼谷悦榕庄酒店{
+  font-size: 35.981px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 0, 0, 0 );
+  padding-top: 40px;
+  padding-bottom: 40px;  
+}
+.miaoshu{
+  font-size: 21.99px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 102, 102, 102 );
+  padding-bottom: 25px;
+}
+.a3{
+	width: 157px;
+	height: 65px;
+	line-height: 65px;
+	font-family: "Microsoft YaHei";
+	font-size: 23.989px;
+	color: rgb( 0, 0, 0 );
+	float: left;
+
+}
+.a4{
+	width: 220px;
+	height: 65px;
+	font-size: 19.942px;
+  	font-family: "Microsoft YaHei";
+ 	color: rgb( 1, 1, 1 );
+ 	 line-height: 65px;
+ 	 float: left;
+ 	 border:  solid orange 2px; 
+ 	 padding-left: 100px;
+}
+.a4 img {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.a5{
+	height: 65px;
+	width: 617px;
+	margin-top: 60px;
+}
+.b1{
 	width: 750px;
-	height: 450px;
+	height: 85px;
+	background-color: #f5f5f5;
+}
+.b1_1{
+	width: 146px;
+	height: 85px;
+	line-height: 85px;
+	text-align: center;
+  	font-size: 26.004px;
+ 	font-family: "Microsoft YaHei";
+  	color: rgb( 1, 1, 1 );
+  	float: left;
+  	border: solid #cbcbcb 1px;
+}
+.b1_2{
+	width: 600px;
+	height: 85px;
+	line-height: 85px;
+	text-align: center;
+  	font-size: 26.004px;
+ 	font-family: "Microsoft YaHei";
+  	color: rgb( 1, 1, 1 );
+  	float: left;
+  	border: solid #cbcbcb 1px;
+}
+
+.c1{
+	width: 750px;
+	height: 115px;
+}
+.c1_1{
+	width: 146px;
+	height: 115px;
+	text-align: center;
+  	font-size: 17.992px;
+ 	 font-family: "Microsoft YaHei";
+ 	 color: rgb( 102, 102, 102 );
+  	float: left;
+  	border: solid #cbcbcb 1px;
+}
+.c1_2{
+	width: 600px;
+	height: 115px;
+	line-height: 115px;
+	text-align: center;
+  	font-size: 22.015px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 102, 102, 102 );
+  	float: left;
+  	border: solid #cbcbcb 1px;
+}
+.jiage{
+  font-size: 43.21px;
+  font-family: "Microsoft YaHei";
+  color: #e8420a;
+}
+.d1{
+	width: 750px;
+	height: 215px;
+  font-size: 19.992px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 0, 0, 0 );
+  border: solid #cbcbcb 1px;
+  margin-top: 2px;
+}
+.d1 p{
+	margin-left: 45px;
+	margin-top: 45px;
+}
+.total{
+	height: 302px;
+	width: 666px;
+	margin: 0 auto;
+}
+.total p{
+	font-size: 22.015px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 102, 102, 102 );
+  	margin-top: 70px;
+  	margin-bottom: 70px;
+}
+.yuding{
+	height: 80px;
+	width: 666px;
+	margin:0 auto;
+	line-height: 80px;
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 255, 255, 255 );
+  text-align: center;
+  background-color: #e8420a;
+  border: none;
+  border-radius: 10px;
+}
+.shuoming{
+	height: 963px;
+	width: 750px;
+}
+.shuoming_box{
+	height: 779px;
+	width: 662px;
+	margin: 10px auto;
+	text-align: center;
+	border:  solid #cbcbcb 1px;
+}
+.shuoming_box p{
+	color: red;
+	margin-top: 95px;
+	font-size: 19.992px;
+ 	font-family: "Microsoft YaHei";
+}
+.e{
+	width: 750px;
+	height: 210px;
+}
+.e_img{
+	height: 210px;
+	width: 150px;
+	float: left;
+}
+.e_img img{
+	margin-top: 43px;
+	float: right;
+}
+.e_font{
+	height: 210px;
+	width: 390px;
+	float: left;
+}
+.e_font_up1{
+  font-size: 30.011px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 232, 66, 10 );
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.e_font_up2{
+  font-size: 30.011px;
+  font-family: "Microsoft YaHei";
+  color: #1c5080;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.e_font_down{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 102, 102, 102 );
+}
+.e_button{
+	height: 53px;
+	width: 166px;
+	margin-top: 68px;
+	border: solid #cbcbcb 2px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 53px;
+	color: #cbcbcb;
+	font-size: 30.011px;
+  	font-family: "Microsoft YaHei";
+  	float: left;
+}
+.last1{
+	width: 750px;
+	height: 250px;
+	background: url(../images/HBK_A.png) center no-repeat;
+	margin-top: 25px;
+}
+.last2{
+	width: 750px;
+	height: 250px;
+	background: url(../images/HBK_B.png) center no-repeat;
+	margin-top: 25px;
 }
