@@ -463,3 +463,15 @@ width: 1430px;
             color: rgb( 255, 255, 255 );
             text-align: center;
         }
+.alway{
+    position: fixed;
+    top:540px;
+    right : 50px;
+}
+.alway td{
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+    margin-bottom: 2px;
+}

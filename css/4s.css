@@ -1,0 +1,242 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+input{
+	border: none;
+}
+.dh{
+	width: 750px;
+	height: 115px;
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	background-color: rgb(254,254,254);
+}
+.dh div{
+	margin-top: 26px;
+	margin-left: 42px;
+	float: left;
+}
+.ann{
+	margin-top: 34px;
+	margin-left: 196px;
+	width: 165px;
+	height: 55px;
+	border-radius: 15px;
+	background-color: rgb(235,66,10);
+	float: left;
+	border:none; 
+	font-size: 28px;
+	font-family:"Simsun";
+	color: rgb( 254, 254, 254 );
+
+}
+.dh p{
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+}
+.p1{
+	background-color: rgb(245,245,245);
+	font-size: 26px;
+	font-family: "Microsoft YaHei";
+    color: rgb( 28, 80, 128 );
+    line-height: 70px;
+}
+.box-1{
+	width: 670px;
+	height: 327px;
+	padding: 5px 40px 0px 40px;
+}
+
+.p2{
+	font-size: 32px;
+	line-height: 102px;
+	margin-right: 180px;
+	font-family: "Microsoft YaHei";
+	float: left;
+}
+.p3{
+	font-size: 22px;
+	font-family: "Microsoft YaHei";
+	line-height: 46px;
+	width: 88px;
+	text-align: right;
+	float: left;
+}
+.p4{
+	background-color: rgb(245,245,245);
+	color: rgb(102,102,102);
+	float: left;
+	font-size: 22px;
+	line-height: 46px;
+	width: 232px;
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 320px;
+	font-family: "Microsoft YaHei";
+}
+.p5{
+	font-family: "Microsoft YaHei";
+	font-size: 18px;
+	color: rgb(238,132,111);
+	float: left;
+}
+.box-2{
+	width: 750px;
+	height: 20px;
+	background-color: rgb(245,245,245);
+}
+.box-10{
+	width: 670px;
+	height: 382px;
+	padding:40px 40px 0px 40px;
+}
+.p6{
+	font-size: 28px;
+	font-family: "Microsoft YaHei";
+	margin-right: 500px;
+	float: left;
+}
+.p7{
+	font-size: 22px;
+	font-family: "Microsoft YaHei";
+	color: rgb(102,102,102);
+	margin-top: 24px;
+	float: left;
+}
+.p8{
+	height: 56px;
+	line-height: 56px;
+	font-size: 22px;
+	margin-right: 40px;
+	margin-top: 52px;
+	float: left;
+
+}
+.shuru{
+	width: 366px;
+	height: 54px;
+	border-width: 1px;
+	font-size: 22px;
+	margin-top: 52px;
+	margin-right: 120px;
+	border-color: rgb(236,236,236);
+	color: rgb(102,102,102);
+	text-indent: 1em;
+	float: left;
+	border-style:solid;
+}
+.x{
+	float: left;
+	margin-top: 14px;
+	margin-left: 155px;
+}
+.box-a{
+	width: 668px;
+	height: 938px;
+	margin:0px 41px;
+}
+.box-a1{
+	width: 668px;
+	height: 513px;
+	padding-top: 40px;
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(230,230,230);
+	border-bottom-style:solid;
+}
+.box-a11{
+	width: 58px;
+	height: 58px;
+	background-color: rgb(28,80,128);
+	border-radius: 100%;
+	color: rgb(254,254,254);
+	text-align: center;
+	line-height: 58px;
+	font-size: 32px;
+	margin-top: 40px;
+	float: left;
+}
+.box-a1p{
+	font-size: 26px;
+	height: 58px;
+	line-height: 58px;
+	color: rgb(28,80,128);
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 440px;
+	float: left;
+}
+.box-b{
+	width: 668px;
+	height: 212px;
+	padding-top: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(202,202,202);
+	background-color: rgb(245,245,245);
+}
+.p9{
+	font-size: 24px;
+	line-height: 1.667;
+	font-family: "Microsoft YaHei";
+	color: rgb(0,0,0);
+	text-indent:1em;
+	float: left;
+}
+.ana{
+	width: 318px;
+	height: 76px;
+	border-radius: 5px;
+	background-color: rgb(245,245,245);
+	color: rgb(148,148,148);
+	border:none;
+	font-size: 24px;
+	float: left;
+}
+.anb{
+	width: 318px;
+	height: 76px;
+	border-radius: 5px;
+	background-color: rgb(232,66,10);
+	color: rgb(254,254,254);
+	border:none;
+	font-size: 24px;
+	float: left;
+	margin-left: 32px;
+}
+input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	background-image: url(254,254,254);
+}
+.boxend{
+	width: 666px;
+	height: 439px;
+	padding:64px 42px 0px 42px; 
+	text-align: center;
+	font-size: 22px;
+	color: rgb(255,255,255);
+	font-style: "Microsoft YaHei";
+	background-color: rgb(52,50,53);
+	float: left;
+}
+.boxend div{
+	width: 660px;
+	height: 96px;
+	border-width: 3px;
+	border-style: solid;
+	text-align: center;
+	line-height: 95px;
+	font-size: 30px;
+	color: rgb(255,255,255);
+	font-style: "Microsoft YaHei";
+	float: left;
+}
