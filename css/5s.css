@@ -93,7 +93,7 @@ li{
 	line-height: 2;
 	font-family: "Microsoft YaHei";
 }
-.d>button{
+.d>a>button{
 	width: 667px;
 	height: 68px;
 	background-color: rgb(254,254,254);
@@ -164,7 +164,7 @@ li{
 	font-size: 22px;
 	color: rgb(255,255,255);
 	font-style: "Microsoft YaHei";
-	background-image: url(../images/2-bj_02.jpg);
+	background-color: rgb(52,50,53);
 	float: left;
 
 }
