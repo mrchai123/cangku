@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-05-29 21:07:44
 * @Last Modified by:   mrchai123
-* @Last Modified time: 2018-06-10 15:57:00
+* @Last Modified time: 2018-06-26 23:32:59
 */
         *{
 			padding: 0;
@@ -110,6 +110,25 @@
             margin-left: 35px;
             text-align: center;
             line-height: 80px;
+        }
+         .daohang2 > ul > li ul{
+            
+
+            display: none; 
+            list-style: none;
+        }
+        .daohang2 > ul > li ul > li{
+            height: 50px;
+            line-height: 40px;            
+            text-align: center;
+            background-color: rgb(255,255,255);
+             opacity: 0.902;
+        }
+        .daohang2 > ul > li:hover ul{
+            display: block;
+            position: absolute;
+            padding-top: 2px;
+
         }
         .daohang2 a{
         	color: rgb(0,0,0);
