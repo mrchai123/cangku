@@ -1,0 +1,379 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+
+.clear:after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+}
+.top{
+	height: 30px;
+	text-align:right;
+	background-color: black;
+}
+.top p{
+	height: 30px;
+	line-height: 30px;
+	margin-right: 250px;
+	font-size: 12px;
+ 	font-family: "Microsoft YaHei";
+  	color: rgb( 212, 212, 212 );
+}
+.header{
+	height:137px;
+	width: 100%;
+	background-color: rgb( 255, 255, 255 );
+}
+.header img{
+	float: left;
+	margin-top: 30px;
+}
+.plus{
+	height: 137px;
+	width: 1100px;
+	margin:0 auto;
+}
+.nav{
+	height: 85px;
+	float: left;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-left: 175px;
+}
+.nav li {
+    width: 75px;
+    height:80px;
+    line-height:80px;
+    text-align: center;
+    background-color: rgb( 255, 255, 255 );
+    margin-right:20px;
+    font-size: 	12px;
+	font-family:  "Microsoft YaHei";
+
+}
+.nav li a{
+	display: block;
+	height: 72px;
+	font-size: 12px;
+    color: #000;
+}
+
+.nav>ul>li {
+	float: left;
+	position: relative;
+}
+
+.nav li:hover>a {
+    color: rgb(241,188,15);
+ 	font-weight: bold;
+    border-bottom:3px solid rgb(241,188,15);
+}
+.shouye7_1{
+	width: 100%;
+	height: 277px;
+	text-align: center;
+}
+.shouye7_1 img{
+	margin-top: 174px;
+}
+.tongyou_1{
+	width: 1350px;
+	margin: 0 auto;
+}
+.tongyou_1_1
+{
+	width: 337.5px;
+	height: 268px;
+	float: left;
+	text-align: center;
+}
+.tongyou_1_1 img
+{
+	margin-top: 88px;
+}
+.tongyou_1_1 p
+{
+	font-size: 20px;
+  font-family: "JZunYuan";
+  color: rgb( 0, 0, 0 );
+  padding-top: 20px;
+}
+.tongyou_2{
+	width: 100%;
+	height: 330px;
+	background-color: #363636;
+	float: left;
+}
+.tongyou_3{
+	width: 1200px;
+	height: 330px;
+	margin: 0 auto;
+}
+.tongyou_3_1
+{
+	width: 900px;
+	height: 330px;
+	float: left;
+}
+.tongyou_3_1_1{
+	height: 93px;
+	width: 225px;
+	float: left;
+	border-right: solid 1px #727272;
+	margin-top: 60px;
+}
+.tongyou_3_1_2{
+	height: 93px;
+	width: 216px;
+	float: left;
+	margin-top: 60px;
+}
+.tongyou_3_1_1 img{
+	float: left;
+	margin-left: 40px;
+	margin-right: 5px;
+}
+.tongyou_3_1_2 img{
+	float: left;
+	margin-left: 40px;
+		margin-right: 5px;
+}
+.p_bt1{
+	 font-size: 16px;
+  font-family: "HiraginoSansGB";
+  color: rgb( 255, 255, 255 );
+}
+.p_bt2{
+	font-size: 12px;
+  font-family: "HiraginoSansGB";
+  color: rgb( 182, 182, 182 );
+  margin-left:40px; 
+  padding-top: 35px;
+}
+.hr{
+	width: 900px;
+	padding-top: 10px;
+	border-top: solid 2px #727272;
+	float: left;
+	margin-top: 55px;
+}
+.hrp{
+		font-size: 12px;
+  font-family: "HiraginoSansGB";
+  color: rgb( 182, 182, 182 );
+  padding-top: 35px;
+ }
+ .liucheng_logo{
+ 	width: 100%;
+ 	height: 162px;
+ 	text-align: center;
+ }
+ .liucheng_logo img{
+ 	margin-top: 70px;
+ }
+ .liucheng_main{
+ 	width:1140px;
+ 	height: 365px;
+ 	margin: 0 auto;
+ 	background: url(../images/daili_liucheng_back2.png) center no-repeat;
+ }
+ .box{
+ 	height: 182.5px;
+ 	width: 190px;
+ 	float: left;
+ 	text-align: center;
+ }
+  .p1{
+  	padding-top:  80px;
+ 	 font-size: 20px;
+ 	 font-family: "Microsoft YaHei";
+  	color: rgb( 0, 0, 0 );
+}
+.p2{  	
+	padding-top: 40px;
+ 	 font-size: 20px;
+ 	 font-family: "Microsoft YaHei";
+  	color: rgb( 0, 0, 0 );}
+
+  }
+ .roll1{
+ 	height: 40px;
+ 	width: 40px;
+ 	border: 3px solid #848484;
+ 	border-radius: 50%;
+ 	margin: 0 auto;
+ 	margin-top: 20px;
+ }
+ .roll2{
+ 	height: 26px;
+ 	width: 26px;
+ 	border-radius: 50%;
+ 	background-color:#848484 ;
+ 	color:#ffffff;
+ 	text-align: center;
+ 	margin-left: 80px;
+ 	margin-top: 20px;
+ }
+ .roll1 div:hover{
+ 	background: #f1760f;
+ }
+ .ziliao_logo{
+ 	width: 100%;
+ 	height: 130px;
+ 	text-align: center;
+ 	background-color: #7bbfff;
+ }
+ .ziliao_logo img{
+ 	margin-top: 30px;
+ }
+ .ziliao_main{
+ 	width: 100%;
+ 	height: 550px;
+ 	background-color: #7bbfff;
+ }
+ .ziliao_main_center{
+ 	width: 1200px;
+ 	height: 550px;
+ 	margin: 0 auto;
+ 	background-color: #7bbfff;
+}
+.ziliao_main_center p{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 255, 255, 255 );
+}
+
+.ziliao_main_center img{
+	float: left;
+}
+.ziliao_main_center_p1
+{
+	padding-top: 96px;
+}
+.ziliao_main_center_p2{
+	margin-top: 75px;
+}
+.daili_why_main
+{
+	width:100%；
+	height:492px;
+}
+.daili_why_main_center
+{
+	height: 492px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.daili_why_main_center_box{
+	height: 492px;
+	width: 300px;
+	float: left;
+}
+.daili_why_main_center_box img{
+	margin-top: 60px;
+	margin-bottom: 45px;
+	margin-left: 95px;
+}
+.daili_why_main_center_box_p1{
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 21, 21, 21 );
+  z-index: 286;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.daili_why_main_center_box_p2{
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: rgb( 18, 18, 18 );
+  width: 215px;
+  margin: 0 auto;
+}
+.how_logo{
+ 	width: 100%;
+ 	height: 162px;
+ 	text-align: center;
+ 	background-color: #f1f6fb;
+ }
+.how_logo img {
+	margin-top: 30px;
+}
+.how_mian{
+	width: 100%;
+	height: 800px;
+	background-color: #f1f6fb;
+}
+.how_main_center{
+	width: 948px;
+	margin:0 auto;
+}
+.ta1{
+	background: #5b9ace;
+	height: 45px;
+	width: 221px;
+  	font-size: 20px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 45px;
+  	text-align: center;
+}
+.ta2{
+	background: #5b9ace;
+	height: 45px;
+	width: 377px;
+  	font-size: 20px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 45px;
+  	text-align: center;
+}
+.ta3{
+	background: #5b9ace;
+	height: 45px;
+	width: 350px;
+  	font-size: 20px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 45px;
+  	text-align: center;
+}
+.tb1{
+	height: 175px;
+	width: 221px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 0, 0, 0 );
+    text-align: center;
+   
+}
+.tb2{
+	height: 175px;
+	width: 377px;
+	 font-size: 16px;
+     font-family: "Microsoft YaHei";
+    color: rgb( 0, 0, 0 );
+     text-align: center;
+ 
+}
+.tb3{
+	height: 175px;
+	width: 350px;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 0, 0, 0 );
+     text-align: center;
+}
+.fuwu_mian{
+	width: 100%;
+	height: 900px;
+	background: url(../images/daili_fuwu_back.png) no-repeat center;
+}
