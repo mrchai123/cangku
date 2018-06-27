@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-05-29 21:07:44
 * @Last Modified by:   mrchai123
-* @Last Modified time: 2018-06-26 23:32:59
+* @Last Modified time: 2018-06-27 00:32:57
 */
         *{
 			padding: 0;
@@ -127,7 +127,7 @@
         .daohang2 > ul > li:hover ul{
             display: block;
             position: absolute;
-            padding-top: 2px;
+            margin-top: 5px;
 
         }
         .daohang2 a{

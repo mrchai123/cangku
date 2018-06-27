@@ -54,12 +54,31 @@ body{
 */	/*margin-top: -70px;*/
 }
 .b2 li{
-	display: inline;
+	
 	float: left;
 	margin-left: 45px;
 	font-size: 20px;
 	list-style: none;
 }
+.b2 > ul > li ul{
+            display: none; 
+            list-style: none;
+            float: left;
+        }
+        .b2 > ul > li ul > li{
+            height: 50px;
+            line-height: 40px;            
+            text-align: center;
+            background-color: rgb(255,255,255);
+            opacity: 0.902;
+            float: left;
+        }
+        .b2 > ul > li:hover ul{
+            display: block;
+            position: absolute;
+            margin-top: 5px;
+
+        }
 .b2 a{
 	text-decoration: none;
 	color: black;

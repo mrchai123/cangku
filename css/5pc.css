@@ -85,6 +85,24 @@ body{
             text-align: center;
             line-height: 80px;
         }
+         .daohang2 > ul > li ul{
+            display: none; 
+            list-style: none;
+
+        }
+        .daohang2 > ul > li ul > li{
+            height: 50px;
+            line-height: 40px;            
+            text-align: center;
+            background-color: rgb(255,255,255);
+             opacity: 0.902;
+        }
+        .daohang2 > ul > li:hover ul{
+            display: block;
+            position: absolute;
+            margin-top: 5px;
+
+        }
         .daohang2 a{
             color: rgb(0,0,0);
             font-size: 20px;
