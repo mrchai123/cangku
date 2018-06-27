@@ -2,7 +2,7 @@
 * @Author: mrchai123
 * @Date:   2018-06-10 10:57:14
 * @Last Modified by:   mrchai123
-* @Last Modified time: 2018-06-10 16:30:08
+* @Last Modified time: 2018-06-27 09:52:21
 */
  *{
 			padding: 0;
@@ -85,6 +85,25 @@
             margin-left: 35px;
             text-align: center;
             line-height: 80px;
+        }
+        .daohang2 > ul > li ul{
+            
+
+            display: none; 
+            list-style: none;
+        }
+        .daohang2 > ul > li ul > li{
+            height: 50px;
+            line-height: 40px;            
+            text-align: center;
+            background-color: rgb(255,255,255);
+             opacity: 0.902;
+        }
+        .daohang2 > ul > li:hover ul{
+            display: block;
+            position: absolute;
+            margin-top: 5px;
+
         }
         .daohang2 a{
         	color: rgb(0,0,0);
